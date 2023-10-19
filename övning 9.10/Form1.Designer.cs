@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Rollspel));
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.tbxval = new System.Windows.Forms.TextBox();
             this.lbxmeny = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -56,6 +56,9 @@
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.ForeColor = System.Drawing.Color.Fuchsia;
             this.textBox1.Location = new System.Drawing.Point(109, 77);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -63,26 +66,35 @@
             this.textBox1.Size = new System.Drawing.Size(44, 114);
             this.textBox1.TabIndex = 0;
             // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(212, 77);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(47, 114);
-            this.textBox2.TabIndex = 1;
-            // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(159, 77);
+            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.ForeColor = System.Drawing.Color.Fuchsia;
+            this.textBox3.Location = new System.Drawing.Point(212, 77);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(47, 114);
             this.textBox3.TabIndex = 1;
             // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.ForeColor = System.Drawing.Color.Fuchsia;
+            this.textBox2.Location = new System.Drawing.Point(159, 77);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(47, 114);
+            this.textBox2.TabIndex = 1;
+            // 
             // tbxval
             // 
+            this.tbxval.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.tbxval.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbxval.ForeColor = System.Drawing.Color.Fuchsia;
             this.tbxval.Location = new System.Drawing.Point(324, 77);
             this.tbxval.Multiline = true;
             this.tbxval.Name = "tbxval";
@@ -92,10 +104,17 @@
             // 
             // lbxmeny
             // 
+            this.lbxmeny.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.lbxmeny.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.lbxmeny.ForeColor = System.Drawing.Color.Fuchsia;
             this.lbxmeny.FormattingEnabled = true;
+            this.lbxmeny.Items.AddRange(new object[] {
+            "Rad 1",
+            "Rad 2 ",
+            "Rad 3"});
             this.lbxmeny.Location = new System.Drawing.Point(265, 135);
             this.lbxmeny.Name = "lbxmeny";
-            this.lbxmeny.Size = new System.Drawing.Size(53, 56);
+            this.lbxmeny.Size = new System.Drawing.Size(53, 52);
             this.lbxmeny.TabIndex = 3;
             // 
             // label1
@@ -292,13 +311,13 @@
             this.guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(87)))), ((int)(((byte)(189)))));
+            this.guna2CircleButton1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton1.Location = new System.Drawing.Point(338, 6);
+            this.guna2CircleButton1.ForeColor = System.Drawing.Color.Fuchsia;
+            this.guna2CircleButton1.Location = new System.Drawing.Point(351, 6);
             this.guna2CircleButton1.Name = "guna2CircleButton1";
             this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton1.Size = new System.Drawing.Size(29, 21);
+            this.guna2CircleButton1.Size = new System.Drawing.Size(28, 28);
             this.guna2CircleButton1.TabIndex = 21;
             this.guna2CircleButton1.Text = "X";
             this.guna2CircleButton1.Click += new System.EventHandler(this.guna2CircleButton1_Click);
@@ -309,13 +328,13 @@
             this.guna2CircleButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2CircleButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2CircleButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(87)))), ((int)(((byte)(189)))));
+            this.guna2CircleButton2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.guna2CircleButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton2.Location = new System.Drawing.Point(304, 6);
+            this.guna2CircleButton2.ForeColor = System.Drawing.Color.Magenta;
+            this.guna2CircleButton2.Location = new System.Drawing.Point(316, 6);
             this.guna2CircleButton2.Name = "guna2CircleButton2";
             this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton2.Size = new System.Drawing.Size(28, 20);
+            this.guna2CircleButton2.Size = new System.Drawing.Size(29, 28);
             this.guna2CircleButton2.TabIndex = 22;
             this.guna2CircleButton2.Text = "-";
             this.guna2CircleButton2.Click += new System.EventHandler(this.guna2CircleButton2_Click);
@@ -346,8 +365,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbxmeny);
             this.Controls.Add(this.tbxval);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -356,6 +375,7 @@
             this.Name = "Rollspel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Rollspel";
+            this.Load += new System.EventHandler(this.Rollspel_Load);
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -365,8 +385,8 @@
         #endregion
 
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox tbxval;
         private System.Windows.Forms.ListBox lbxmeny;
         private System.Windows.Forms.Label label1;

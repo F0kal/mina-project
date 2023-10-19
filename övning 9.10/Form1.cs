@@ -17,9 +17,8 @@ namespace övning_9._10
         public Rollspel()
         {
             InitializeComponent();
-            lbxmeny.SelectedIndex = 0;
+            lbxmeny.SelectedIndex = 1;
         }
-
 
         private void guna2CircleButton1_Click(object sender, EventArgs e)
         {
@@ -34,8 +33,8 @@ namespace övning_9._10
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             textBox1.Clear();
-            textBox2.Clear();
             textBox3.Clear();
+            textBox2.Clear();
             int antaltal = 6;
             tal = new int[antaltal];
             for (int i = 0; i < tal.Length; i++)
@@ -47,19 +46,27 @@ namespace övning_9._10
             for (int i = 0; i < tal.Length; i++)
             {
                 tal[i] = generator.Next(1, 21);
-                textBox2.AppendText(tal[i] + "\r\n");
+                textBox3.AppendText(tal[i] + "\r\n");
             }
             for (int i = 0; i < tal.Length; i++)
             {
                 tal[i] = generator.Next(1, 21);
-                textBox3.AppendText(tal[i] + "\r\n");
+                textBox2.AppendText(tal[i] + "\r\n");
             }
 
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-           // if (lbxmeny.SelectedIndex == 0) tbxval = "" + textBox1.Text;
+            if (lbxmeny.SelectedIndex == 0) tbxval.Text = textBox1.Text;
+            else if (lbxmeny.SelectedIndex == 1) tbxval.Text = textBox3.Text;
+            else if (lbxmeny.SelectedIndex == 2) tbxval.Text = textBox2.Text;
+            
+        }
+
+        private void Rollspel_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
