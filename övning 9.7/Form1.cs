@@ -28,7 +28,7 @@ namespace övning_9._7
 
                 for (int j = 1; j <= 10; j++)
                 {
-                    tabell = tabell + (i * j) + "\t";
+                    tabell = tabell + (i * j) + "\t";   // tar nivå som du skrivit in i textboxen och gångrar den med alla gångertabeller upp till 10ans tabell
                 }
                 tabell = tabell + "\r\n";
                 
