@@ -20,7 +20,7 @@ namespace övning_2._2
         }
         
 
-        public virtual double Beräknalön(double p, double f)
+        public override double BeräknaLön()
         {
 
             return försäljning * (provision / 100);

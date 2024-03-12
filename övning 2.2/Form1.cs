@@ -29,5 +29,27 @@ namespace övning_2._2
             WindowState = FormWindowState.Minimized;
         }
 
+        private void btn_Säljare_Click(object sender, EventArgs e)
+        {
+            Säljare säljare = new Säljare(tbx_Säljarenamn.Text,int.Parse (tbx_SäljareProvision.Text),int.Parse (tbx_SäljareFörsäljning.Text));
+            listBox1.Items.Add(säljare);
+        }
+
+        private void btn_Konsult_Click(object sender, EventArgs e)
+        {
+            Konsult konsult = new Konsult(tbx_KonsultNamn.Text, int.Parse (tbx_KonsultTimlön.Text), int.Parse(tbx_KonsultArbetadtid.Text));
+            listBox1 .Items.Add(konsult);
+        }
+
+        private void btn_Kontorist_Click(object sender, EventArgs e)
+        {
+            Kontorist kontorist = new Kontorist (tbx_KontoristNamn.Text, int.Parse(tbx_KontoristMånadslön.Text));
+            listBox1.Items .Add(kontorist);
+        }
+
+        private void btnBeräknaLön_Click(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

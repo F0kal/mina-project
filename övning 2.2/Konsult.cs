@@ -20,10 +20,10 @@ namespace övning_2._2
         }
 
 
-        public virtual double BeräknaLön(double a,double t) 
+        public override double BeräknaLön() 
         {
 
-            return a * t;
+            return arbetadeTimmar * timLön;
         }
 
         public override string ToString()

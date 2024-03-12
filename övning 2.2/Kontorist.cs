@@ -14,9 +14,9 @@ namespace övning_2._2
             månadslön = m;
         }
 
-        public virtual double BeräknaLön(double m)
+        public override double BeräknaLön()
         {
-            return m;
+            return månadslön;
         }
         public override string ToString()
         {
