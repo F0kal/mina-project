@@ -19,10 +19,11 @@ namespace Övning5._2
 
         private void btnKör_Click(object sender, EventArgs e)
         {
-            int a = int.Parse(textBox1.Text);
+            int a = 5;
             int b = a--;
-            int c = ++b + a;
-            lblSvar.Text = c.ToString();
+            int c = b * a;
+            int d = c - a + b;
+            lblSvar.Text = d.ToString();
         }
     }
 }

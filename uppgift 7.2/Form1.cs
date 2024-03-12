@@ -28,6 +28,7 @@ namespace uppgift_7._2
             {
                 label2.Text = "åh nej din boll hamna i sjön";
             }
+            bool isEqual 
         }
     }
 }
