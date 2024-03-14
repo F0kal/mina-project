@@ -60,7 +60,7 @@
             this.btn_Kontorist = new Guna.UI2.WinForms.Guna2Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
-            this.guna2TextBox10 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.tbx_Totallön = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnBeräknaLön = new Guna.UI2.WinForms.Guna2Button();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -527,27 +527,27 @@
             this.listBox2.Size = new System.Drawing.Size(255, 108);
             this.listBox2.TabIndex = 7;
             // 
-            // guna2TextBox10
+            // tbx_Totallön
             // 
-            this.guna2TextBox10.Animated = true;
-            this.guna2TextBox10.AutoRoundedCorners = true;
-            this.guna2TextBox10.BorderRadius = 13;
-            this.guna2TextBox10.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox10.DefaultText = "";
-            this.guna2TextBox10.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox10.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox10.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox10.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox10.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox10.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox10.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox10.Location = new System.Drawing.Point(590, 379);
-            this.guna2TextBox10.Name = "guna2TextBox10";
-            this.guna2TextBox10.PasswordChar = '\0';
-            this.guna2TextBox10.PlaceholderText = "";
-            this.guna2TextBox10.SelectedText = "";
-            this.guna2TextBox10.Size = new System.Drawing.Size(184, 29);
-            this.guna2TextBox10.TabIndex = 8;
+            this.tbx_Totallön.Animated = true;
+            this.tbx_Totallön.AutoRoundedCorners = true;
+            this.tbx_Totallön.BorderRadius = 13;
+            this.tbx_Totallön.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.tbx_Totallön.DefaultText = "";
+            this.tbx_Totallön.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.tbx_Totallön.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.tbx_Totallön.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tbx_Totallön.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.tbx_Totallön.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tbx_Totallön.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tbx_Totallön.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tbx_Totallön.Location = new System.Drawing.Point(590, 379);
+            this.tbx_Totallön.Name = "tbx_Totallön";
+            this.tbx_Totallön.PasswordChar = '\0';
+            this.tbx_Totallön.PlaceholderText = "";
+            this.tbx_Totallön.SelectedText = "";
+            this.tbx_Totallön.Size = new System.Drawing.Size(184, 29);
+            this.tbx_Totallön.TabIndex = 8;
             // 
             // btnBeräknaLön
             // 
@@ -613,7 +613,7 @@
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.btnBeräknaLön);
-            this.Controls.Add(this.guna2TextBox10);
+            this.Controls.Add(this.tbx_Totallön);
             this.Controls.Add(this.listBox2);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.groupBox4);
@@ -672,7 +672,7 @@
         private Guna.UI2.WinForms.Guna2TextBox tbx_KontoristNamn;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.ListBox listBox2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox10;
+        private Guna.UI2.WinForms.Guna2TextBox tbx_Totallön;
         private Guna.UI2.WinForms.Guna2Button btnBeräknaLön;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;

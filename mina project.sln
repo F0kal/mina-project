@@ -157,6 +157,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "programering 2", "programer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "övning 2.2", "övning 2.2\övning 2.2.csproj", "{9166E9AF-5ABF-4240-B69A-98006F25B563}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "övning 2,1", "..\programering\övning 2,1\övning 2,1\övning 2,1.csproj", "{AB13313C-D277-4246-9179-BFDE2B065EE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -427,6 +429,10 @@ Global
 		{9166E9AF-5ABF-4240-B69A-98006F25B563}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9166E9AF-5ABF-4240-B69A-98006F25B563}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9166E9AF-5ABF-4240-B69A-98006F25B563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB13313C-D277-4246-9179-BFDE2B065EE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB13313C-D277-4246-9179-BFDE2B065EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB13313C-D277-4246-9179-BFDE2B065EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB13313C-D277-4246-9179-BFDE2B065EE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -507,6 +513,7 @@ Global
 		{91785B0F-0D12-474D-966C-D711DBBF6891} = {73D679D3-2D64-4B44-A1A6-1A4D60F9AD31}
 		{ADC574EB-003A-4E24-9A0D-BCFA2293A45E} = {97815979-10FA-47F1-BFA2-FFAEEA257485}
 		{9166E9AF-5ABF-4240-B69A-98006F25B563} = {70B78A64-E64B-4A8F-9516-949A32789D75}
+		{AB13313C-D277-4246-9179-BFDE2B065EE0} = {70B78A64-E64B-4A8F-9516-949A32789D75}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0F19584B-438E-4BC8-AD44-56231B66003B}
