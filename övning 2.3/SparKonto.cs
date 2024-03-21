@@ -34,7 +34,7 @@ namespace övning_2._3
 
         public override string ToString()
         {
-            return personNummer;
+            return " Sparkonto " + personNummer + "  " + Behållning + " kr";
         }
 
 

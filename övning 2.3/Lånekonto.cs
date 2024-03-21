@@ -17,7 +17,7 @@ namespace övning_2._3
 
         public override bool Uttag(double belopp)
         {
-            if (belopp > Behållning && belopp <kreditGräns)
+            if (belopp > Behållning && belopp + Behållning < kreditGräns)
 
             {
                 Behållning = Behållning - belopp;
@@ -30,15 +30,12 @@ namespace övning_2._3
         public override double BeräknaRänta(double belopp)
         {
 
-            return Behållning
-                
-                
-                * (ränteSats / 100);
+            return -(Behållning * (ränteSats / 100));
         }
 
         public override string ToString()
         {
-            return personNummer;
+            return " Lånekonto " + personNummer + "  " + Behållning + " kr";
         }
 
 

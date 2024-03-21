@@ -34,7 +34,7 @@ namespace övning_2._3
         public abstract double BeräknaRänta(double belopp);
 
 
-        public abstract string ToString();
+        public abstract override string ToString();
 
     }
 }
