@@ -9,15 +9,16 @@ namespace övning_2._3
     internal class Lånekonto:BankKonto
     {
 
-        private double kreditGräns = -1000;
-        public Lånekonto(string personNummer, double behållning, double Räntesats) : base(personNummer, behållning, Räntesats) 
+        private double kreditGräns;
+        public Lånekonto(string personNummer, double behållning, double Räntesats, double kreditgräns) : base(personNummer, behållning, Räntesats) 
         { 
-
+            this.kreditGräns = -kreditgräns;
         }
 
         public override bool Uttag(double belopp)
         {
-            if (belopp > Behållning && belopp + Behållning < kreditGräns)
+            double kvarefteruttag = Behållning - belopp;
+            if (kvarefteruttag >= kreditGräns)
 
             {
                 Behållning = Behållning - belopp;
@@ -27,10 +28,10 @@ namespace övning_2._3
             else return false;
         }
 
-        public override double BeräknaRänta(double belopp)
+        public override double BeräknaRänta()
         {
 
-            return -(Behållning * (ränteSats / 100));
+            return (Behållning * (ränteSats / 100));
         }
 
         public override string ToString()

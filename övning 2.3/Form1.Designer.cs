@@ -186,6 +186,7 @@
             this.btn_Uppdatera.TabIndex = 4;
             this.btn_Uppdatera.Text = "uppdatera med årsränta";
             this.btn_Uppdatera.UseVisualStyleBackColor = true;
+            this.btn_Uppdatera.Click += new System.EventHandler(this.btn_Uppdatera_Click);
             // 
             // Form1
             // 

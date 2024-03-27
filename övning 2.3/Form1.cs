@@ -34,7 +34,7 @@ namespace övning_2._3
             }
             else
             {
-                Lånekonto l = new Lånekonto(tbx_PersonNr.Text, 0, double.Parse(tbx_Ränta.Text));
+                Lånekonto l = new Lånekonto(tbx_PersonNr.Text, 0, double.Parse(tbx_Ränta.Text), double.Parse (tbx_Kredit.Text));
                 listBox1.Items.Add(l);
                 bank.Konton.Add(l);
             }
@@ -44,13 +44,47 @@ namespace övning_2._3
         {
            bank.Konton [listBox1.SelectedIndex].Insättning (double.Parse(tbx_belopp.Text)); 
             listBox1.Items.Clear();
-            foreach (BankKonto konto in bank.Konton) { listBox1.Items.Add(konto);}
+            foreach (BankKonto konto in bank.Konton) 
+            {
+                listBox1.Items.Add(konto);
+            }
 
         }
 
         private void btn_Uttag_Click(object sender, EventArgs e)
         {
             
+            bool okej = bank.Konton[listBox1.SelectedIndex].Uttag(double.Parse(tbx_belopp.Text));
+
+            if (okej == true)
+            {
+                MessageBox.Show(" uttag godkänt");
+            }
+            else
+            {
+                MessageBox.Show("uttag ej godkännt kolla att du inte uppnått kreditgräns");
+                return;
+            }
+
+            listBox1.Items.Clear();
+            foreach (BankKonto konto in bank.Konton)
+            { 
+                listBox1.Items.Add(konto);
+            }
         }
+
+        private void btn_Uppdatera_Click(object sender, EventArgs e)
+        {
+            foreach ( BankKonto konto in bank.Konton)
+            {
+              konto.Behållning +=  konto.BeräknaRänta() ;
+            }
+            listBox1.Items.Clear();
+            foreach (BankKonto konto in bank.Konton)
+            {
+                listBox1.Items.Add(konto);
+            }
+        }
+
     }
 }

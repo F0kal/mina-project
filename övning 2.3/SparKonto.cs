@@ -24,7 +24,7 @@ namespace övning_2._3
             else return false;
         }
 
-        public override double BeräknaRänta(double belopp)
+        public override double BeräknaRänta()
         {
            
             return Behållning * (ränteSats /100);

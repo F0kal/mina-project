@@ -13,7 +13,7 @@ namespace övning_2._3
         private double behållning;
         protected double ränteSats;
 
-        protected double Behållning { get => behållning; set => behållning = value; }
+        public double Behållning { get => behållning; set => behållning = value; }
 
 
         public BankKonto( string p,double b, double r)
@@ -31,7 +31,7 @@ namespace övning_2._3
         public abstract bool Uttag(double belopp);
 
 
-        public abstract double BeräknaRänta(double belopp);
+        public abstract double BeräknaRänta();
 
 
         public abstract override string ToString();
