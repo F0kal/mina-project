@@ -163,6 +163,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "övning 2.3", "övning 2.3\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "övning 2.4", "övning 2.4\övning 2.4.csproj", "{FEEA8C24-499F-48FA-A347-CDA57A1A3A3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "övning 2.5", "övning 2.5\övning 2.5.csproj", "{373638BA-B744-44B5-8E35-6BC39DBC203F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -445,6 +447,10 @@ Global
 		{FEEA8C24-499F-48FA-A347-CDA57A1A3A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEEA8C24-499F-48FA-A347-CDA57A1A3A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEEA8C24-499F-48FA-A347-CDA57A1A3A3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373638BA-B744-44B5-8E35-6BC39DBC203F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373638BA-B744-44B5-8E35-6BC39DBC203F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373638BA-B744-44B5-8E35-6BC39DBC203F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373638BA-B744-44B5-8E35-6BC39DBC203F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -528,6 +534,7 @@ Global
 		{AB13313C-D277-4246-9179-BFDE2B065EE0} = {70B78A64-E64B-4A8F-9516-949A32789D75}
 		{3A45E6BA-9B49-4ED8-9F0D-F1E7BC016FE8} = {70B78A64-E64B-4A8F-9516-949A32789D75}
 		{FEEA8C24-499F-48FA-A347-CDA57A1A3A3C} = {70B78A64-E64B-4A8F-9516-949A32789D75}
+		{373638BA-B744-44B5-8E35-6BC39DBC203F} = {70B78A64-E64B-4A8F-9516-949A32789D75}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0F19584B-438E-4BC8-AD44-56231B66003B}
